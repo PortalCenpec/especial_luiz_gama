@@ -20,18 +20,6 @@
   font-size: 1rem;
 }
 
-.background-header {
-  background: #fffbf3;
-}
-
-.header-main-bicentenario {
-  padding: 5rem;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  max-width: 70%;
-  margin: 0 auto;
-}
 
 .main-timeline {
   padding: 2rem;
@@ -194,7 +182,7 @@
 
 .grid-sites-bicentenario {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 2rem;
   flex-wrap: wrap;
 }
@@ -263,9 +251,10 @@
   padding: 2rem 0 3rem 0;
 }
 
-.ul-circle-bicentenario {
+.ul {
   list-style-type: disc;
   margin-top: 1rem;
+  width: 2em;
 }
 
 .background-credits-bicentenario {
