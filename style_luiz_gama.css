@@ -356,6 +356,9 @@
   .grid-sites-bicentenario {
     display: grid;
     grid-template-columns: 1fr;
+	width: 100%;
+	float:left;
+	  
   }
 
   .content-sites-bicentenario {
