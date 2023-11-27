@@ -285,7 +285,7 @@
 	border-radius: 18px;
 	margin: 0 auto;
 	width:480;
-	height: 270;
+	height:270;
 }
 
 @media (max-width: 1350px) {
@@ -295,7 +295,7 @@
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 780px) {
   .header-main-bicentenario {
     padding: 2rem;
     max-width: 100%;
