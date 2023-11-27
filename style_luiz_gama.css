@@ -1,712 +1,392 @@
-<link href="https://fonts.googleapis.com/css?family=Sanchez&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://portalcenpec.github.io/especial_luiz_gama/style_luiz_gama.css">
-<link rel="stylesheet" href="https://use.typekit.net/jyc3hjx.css" />
+.text-align-left{
+  text-align: left;
+}
 
-
-<style>
-body {
-  overflow-x: hidden;
+.container-bicentenario {
+  width: 100%;
+  padding: 0;
   margin: 0;
-	}
+  color: #5e5e5e;
+  text-align: justify;
+  font-size: 1rem;
+}
 
-p {
-text-align:left;
-	}
-li{
-		color:#000;
-	}
-	
-	
 
-	
-@media (max-width: 1350px) {
+.main-timeline {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 70%;
+  margin: 0 auto;
+}
 
+.img-timeline {
+  width: 100%;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.limite-img-timeline {
+  max-width: 967px;
+  max-height: 127px;
+  margin: 0 auto;
+}
+
+.limite-img-quiz {
+  max-width: 723px;
+  max-height: 132px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.img-quiz-bicentenario {
+  width: 100%;
+}
+
+.vertical-line-and-text {
+  position: relative;
+
+  padding: 0;
+}
+
+.vertical-line {
+  content: '';
+  position: absolute;
+  height: 100%;
+  border-right: 5px solid #f8bf00;
+}
+
+.highlighted-text {
+  margin-left: 0.938rem;
+  font-weight: 600;
+  font-style: normal;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  text-align: left;
+}
+
+.container-character-gallery {
+  max-width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 5rem 0 0rem 0;
+}
+
+.img-character-gallery{
+  width: 100%;
+}
+
+.background-character-gallery {
+  background: #f2e8d8;
+}
+
+.background-scroll-gallery {
+  background: #f2e8d8;
+}
+
+.container-scroll-gallery {
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+.content-carousel {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0 5rem 3rem 5rem;
+}
+
+.img-carousel {
+  float: left;
+  width: 30%;
+  margin-right: 1rem;
+}
+
+.h2-carousel-bicentenario {
+  color: #7f8a48;
+  font-family: dapifer, serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.quiz-bicentenario {
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.quiz-background-bicentenario {
+  background-image: url('https://www.cenpec.org.br/wp-content/uploads/2022/09/background_img_quiz-1.png');
+  background-size: 100%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.text-quiz-bicentenario {
+  margin-bottom: 3rem;
+}
+
+.divider-1 {
+  height: 1px;
+  background: linear-gradient(
+    270deg,
+    #818753 0%,
+    rgba(204, 244, 230, 0.34) 100%
+  );
+}
+
+.divider-2 {
+  height: 1px;
+  background: linear-gradient(
+    270deg,
+    rgba(204, 244, 230, 0.34) 0%,
+    #818753 100%
+  );
+}
+
+.container-midiateca-bicentenario {
+  max-width: 70%;
+  margin: 2rem auto 0;
+  padding-bottom: 2rem;
+}
+
+.header-midiateca-bicentenario {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.content-especial-bicentenario {
+  display: flex;
+  margin: 2rem 0;
+}
+
+.header-sites-bicentenario {
+  margin: 2rem 0;
+}
+
+.img-especial-bicentenario {
+  width: 90%;
+  
+}
+
+.grid-sites-bicentenario {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.content-sites-bicentenario {
+  display: flex;
+  flex-direction: column;
+  max-height: 30rem;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.img-sites-bicentenario {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.link-sites-bicentenario {
+  color: #ddb434;
+  font-size: 1.2rem;
+  outline: none;
+  position: absolute;
+  bottom: -2rem;
+}
+
+.link-sites-bicentenario:hover {
+  color: #ddb434;
+  text-decoration: none;
+}
+
+.background-podcast-bicentenario {
+  background: #fffbf3;
+}
+
+.header-podcast-bicentenario {
+  margin-bottom: 2rem;
+}
+
+.container-podcast-bicentenario {
+  margin: 0 auto;
+  max-width: 70%;
+  margin-bottom: -2rem;
+  padding: 2rem 0 3rem 0;
+}
+
+.item-podcast-display-flex{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.icone-podcast-bicentenario{
+  width: 2rem;
+ fill: #7f8a48;
+}
+
+.background-know-bicentenario {
+  background: #f2e8d8;
+}
+
+.container-know-bicentenario {
+  margin: 0 auto;
+  max-width: 70%;
+  margin-bottom: -2rem;
+  padding: 2rem 0 3rem 0;
+}
+
+.ul {
+  list-style-type: disc;
+  margin-top: 1rem;
+  width: 2em;
+}
+
+.background-credits-bicentenario {
+  background: #f8bf00;
+}
+
+.container-credits-bicentenario {
+  margin: 0 auto;
+  max-width: 70%;
+  margin-bottom: -5rem;
+  padding: 5rem 0 7rem 0;
+}
+
+.header-credits-bicentenário {
+  display: flex;
+  font-family: dapifer, serif;
+  flex-direction: column;
+  gap: 3rem;
+  margin-bottom: 1rem;
+}
+
+.line-height-bicentenario {
+  margin: 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(80%);
+}
+
+.color-circle-carousel-bicentenario{
+  filter: invert(80%);
+}
+
+.videos-lg{
+	border: solid 8px #df900f;
+	border-radius: 18px;
+	margin: 0 auto;
+	width:100%;
+	max-width:480;
+	height:270;
+}
+
+.img-lg{
+	float: left;
+	width: 380px;
+	display:inline-block;
+	padding: 12px;
+}
+
+@media (min-width: 1350px) {
+  .content-sites-bicentenario {
+    max-height: 40rem;
+    margin-bottom: 5rem;
   }
 }
-	
-@media only screen and (max-width: 480px) {
-  .img_lg {
+
+@media (min-width: 780px) {
+  .header-main-bicentenario {
+    padding: 2rem;
     max-width: 100%;
-	float:left;
   }
+
+  .vertical-line-and-text {
+    max-width: 100%;
+  }
+
+
+  .container-scroll-gallery {
+    padding: 1rem;
+  }
+
+  .main-timeline {
+    max-width: 100%;
+  }
+
+  .container-character-gallery{
+    max-width: 90%;
+  }
+
+  .content-carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+  }
+
+  .img-carousel {
+    width: 60%;
+    float: none;
+  }
+
+  .quiz-bicentenario {
+    max-width: 90%;
+    padding: 0;
+  }
+
+  .container-midiateca-bicentenario {
+    max-width: 90%;
+  }
+
+  .content-especial-bicentenario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .img-especial-bicentenario{
+    margin-left: 2rem;
+  }
+  .grid-sites-bicentenario {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .content-sites-bicentenario {
+    max-height: 50rem;
+    margin-bottom: 2rem;
+  }
+
+  .container-podcast-bicentenario {
+    max-width: 90%;
+
+  }
+  .container-know-bicentenario {
+    max-width: 90%;
+
+  }
+
+  .container-credits-bicentenario {
+    max-width: 90%;
+  }
+.videos-lg{
+	width:100%;
+	height: 214;
 }
-
-@media (max-width: 780px) {
-
-	}
+.img-lg{
+	width: 100%;
 }
-	
-
-
-</style>
-
-
-
-
-
-<div id="capa" style="width:100%;margin-top:0px;margin-bottom:-40px;">
-    <img src="https://www.cenpec.org.br/wp-content/uploads/2023/11/capa-luiz-gama-1.jpg" style="width:100%;margin-top:-16px;">
-</div>
-
-
-<div id="content" class="container mt-5" style="font-size: 1.2em;">
-        <div class="row">
-            <div id="primary" class="col content-area">
-                <main id="main" class="site-main">
-  
-    <div>
-        <div>
-
-            <div id="texto" class="col-lg-12" style="padding: 0 6% 3% 6%">
-
-
- 				<p>&nbsp;</p>
-				<h1 style="font-size: 2.4em;font-family: Aleo;">LUIZ GAMA, CONSCIÊNCIA NEGRA, JUSTIÇA E LIBERDADE</h1>
-                <p>&nbsp;</p>
-                <em><p style="padding: 1em;  border-left: 10px solid #df900f;">"Nasci na cidade de S[ão] Salvador, capital da província da Bahia, em um sobrado da Rua do Bângala, formando ângulo interno, na quebrada, lado direito de quem parte do adro da Palma, na Freguesia de SantAna, a 21 de junho de 1830, pelas 7 horas da manhã, e fui batizado, 8 anos depois, na igreja matriz do Sacramento, da cidade de Itaparica.<br>
-                Sou filho natural de uma negra, africana livre, da Costa Mina, (Nagô de Nação) de nome Luíza Mahin, pagã, que sempre recusou o batismo e a doutrina cristã.<br>
-                Minha mãe era baixa de estatura, magra, bonita, a cor era de um preto retinto e sem lustro, tinha os dentes alvíssimos como a neve, era muito altiva, geniosa, insofrida e vingativa.<br>
-				[...] Meu pai, não ouso afirmar que fosse branco, porque tais afirmativas, neste país, constituem grave perigo perante a verdade, no que concerne à melindrosa presunção das cores humanas: era fidalgo e pertencia a uma das principais famílias da Bahia de origem portuguesa. Devo poupar à sua infeliz memória uma injúria dolorosa, e o faço ocultando o seu nome." </p></em>
-				<p>&nbsp;</p>
-				
-
-				<div class="container text-center">
-				  <div class="row">
-					<div class="col col-lg-12">
-						<div style="text-align:center;background-color: #df900f;width: 100%;max-width: 580px;box-shadow: 2px 2px 5px grey;margin-bottom: 30px;border-radius: 20px;margin:0 auto;">
-							<p>Ouça a carta na íntegra, na voz do educador antirracista <strong>Washington Góes</strong> (Cenpec).</p>
-							<audio controls="" autoplay="false" name="media" preload="none" ><source src="https://www.cenpec.org.br/wp-content/uploads/2023/11/Leitura-Goes_carta-Luiz-Gama.mp3" type="audio/mpeg" style="background-color: darkorange;"></audio>
-						</div>
-					</div>
-					<div class="col col-lg-12">
-					  <a href="http://www.dominiopublico.gov.br/download/texto/bn000101.pdf" target="_blank"><button type="button" class="btn" style="background-color: #df900f;"><strong>Clique aqui para ler o texto na íntegra</strong></button></a>
-					</div>
-				  </div>
-				</div>
-				<p>&nbsp;</p>
-				
-				
-				<p>Com essas palavras, Luiz Gama conta de suas origens ao escritor e amigo Lúcio de Mendonça em carta datada de 25 de julho de 1880.</p>
-				<p>Mas quem é este personagem que há poucos anos passou a ganhar espaço nas páginas da história brasileira? Por que, durante tanto tempo, seu nome e sua obra foram desconhecidos da maioria, mesmo tendo sido um dos nossos maiores abolicionistas?</p>
-				<p>Luiz Gonzaga Pinto nasceu em Salvador, Bahia, em 21 de junho de 1830. Filho de Luiza Mahin, negra africana livre, e de um fidalgo de origem portuguesa, sua trajetória é marcada pela <strong>luta em prol da libertação das pessoas escravizadas e pela valorização da cultura afro-brasileira</strong>. </p>
-				<p>Nas palavras de José do Patrocínio, outro grande abolicionista brasileiro, Luiz Gama era o “grande chefe”, “o símbolo da grande causa”. De fato, ao longo de seus 52 anos de vida, usou o sistema jurídico para libertar centenas de pessoas, organizou conferências, escreveu inúmeros artigos polêmicos, além de ter encabeçado iniciativas para o alforriamento de escravos promovidas pela loja maçônica América, de São Paulo.</p>
-								
-				[h5p id="85"]
-				 </div>
- </div>
-</div>
-
-                 </main>
-            </div>
-        </div>
-    </div>
-				
-
-				
-				[h5p id="78"]
-				<p>&nbsp;</p>
-				<p>&nbsp;</p>
-				
-				
-<div id="content" class="container mt-5" style="font-size: 1.2em;">
-        <div class="row">
-            <div id="primary" class="col content-area">
-                <main id="main" class="site-main">
-  
-    <div>
-
-
-            <div id="texto" class="col-lg-12" style="padding: 0 6% 3% 6%;background-color: #f6ad30;font-size: 1.2em;">
-
-<h2 style="font-size: 2.2em;font-family: Aleo;">Homenagens póstumas</h2>
-                <img src="https://www.cenpec.org.br/wp-content/uploads/2023/11/gama2.png" class="img-fluid" style="float: right;width:100%;max-width: 380px;display:inline-block;padding: 0 12px 12px 0;">
-					<li>Em <strong>1931</strong>, Luiz Gama foi homenageado com um busto localizado no Largo do Arouche, região central da cidade de São Paulo. Esculpido por Yolando Mallozzi, o monumento foi composto em granito, bronze, betão. </li>
-					<li>Em <strong>2015</strong>, a Ordem dos Advogados do Brasil (OAB) lhe conferiu postumamente o título de advogado provisionado (no Brasil imperial, aquele que, sem formação acadêmica em Direito, obtinha a autorização do órgão competente do Poder Judiciário para exercer a postulação em juízo em primeira instância).</li>
-					<li>Em <strong>2017</strong>, foi homenageado nomeando com uma das salas da instituição.</li>
-					<li>Em <strong>2018</strong>, foi reconhecido como Patrono da Abolição da Escravidão no Brasil pela Lei nº 13.62.</li>
-					<li>Em <strong>2021</strong>, recebeu o título de Doutor Honoris Causa póstumo pela Universidade de São Paulo (USP).</li>
-					<li>No mesmo ano, foi lançado o filme Doutor Gama, de autoria de Jeferson De, que conta a vida de Luiz Gama, com destaque para sua luta abolicionista nos tribunais e na imprensa da época.</li>
-					<li>Luiz Gama é também o patrono da cadeira n.º 15 da Academia Paulista de Letras.</li>
-				</ul>
-				<p>No entanto, essas homenagens são bastante modestas se pensarmos no impacto da vida e da obra de Luiz Gama, o maior abolicionista das Américas. No caso da educação, a quase ausência desse grande personagem nas aulas e nos materiais didáticos evidencia esse fato.</p>
-				<p>Como nota a professora Lígia Fonseca Ferreira:</p>
-				<p><em>"É notável, contudo, a pequena atenção com que é tratada a trajetória de Luís Gama nos currículos escolares e universitários quando comparada a de outros intelectuais que trataram de temas idênticos ou semelhantes aos que esse autor enfrentou, como, por exemplo, o também abolicionista Joaquim Nabuco, contemporâneo de Gama, assim como Castro Alves, poeta cuja temática de apelo ao abolicionismo e ao antiescravismo estava também presente na obra poética de Gama, ainda que sob uma perspectiva social distinta. Enquanto Castro Alves assumia-se como um interlocutor dos negros escravizados, Gama enunciava e encarnava a própria voz dos/as escravizados/as, até porque fora escravizado, questionando as instituições e a posição subalternizada e desumana dos negros na estrutura social oitocentista”</em> (FERREIRA, 2007).</p>
-				<p>&nbsp;</p>
-				<p>&nbsp;</p>
-				
-				 </div>
-</div>
-
-                 </main>
-            </div>
-        </div>
-    </div>			
-				
- 
-
-				
-				
-	
-
-
-
-<div style="width: 100%">
-    <img src="https://www.cenpec.org.br/wp-content/uploads/2023/11/lines_gama.jpg" style="width:100%;">
-</div>
-
-
-<div id="content" class="container mt-5" style="font-size: 1.2em;">
-        <div class="row">
-            <div id="primary" class="col content-area">
-                <main id="main" class="site-main">
-  
-    <div>
-        <div>
-
-            <div id="texto" class="col-lg-12" style="padding: 0 6% 3% 6%;">
-
-
- <p>&nbsp;</p>
-                 <h2 style="font-size: 2.2em;font-family: Aleo;">Entrevista com Guilherme Soares Dias (Guia Negro): Na trilha de Luiz Gama</h2>
-                 <p>&nbsp;</p>
-				<div class="container text-center">
-				  <div class="row">
-					<div class="col col-lg-6" style="text-align: left;">
-						<h4>Após mais de um século de apagamento, as contribuições de Luiz Gama para a história brasileira têm ganhado o merecido destaque em iniciativas e espaços diversos, seja na academia, onde têm aumentado estudos sobre a vida e a obra do nosso maior abolicionista, seja na mídia e nas redes sociais.</h4>
-						<h4>Uma dessas iniciativas é a Caminhada Luiz Gama. Realizada pela equipe do Guia Negro, a caminhada percorrer as “pegadas” que este importante personagem deixou pela cidade de São Paulo, onde viveu a maior parte de sua vida.</h4>
-						<h4>Confira a seguir a entrevista com o jornalista Guilherme Soares Dias, fundador do Guia Negro, plataforma de afroturismo que tem como objetivo ensinar sobre o protagonismo negro e outras histórias.</h4>
-                 <p>&nbsp;</p>
-					</div>
-					<div class="col col-lg-6">
-					  <img src="https://www.cenpec.org.br/wp-content/uploads/2023/11/gama1-1.png" style="max-width:420px;margin-left: -10px;">
-						<p style="font-size: 0.8em;text-align: center;padding: 0 20px;">Guillherme Dias (à esquerda) e participantes da Caminhada Luiz Gama no no Largo do Arouche, região central São Paulo (SP), onde se encontra o busto do grande abolicionista, inaugurado em 1931.</p>
-					</div>
-				  </div>
-				</div>
-				
-
-                <p style="padding: 1em;  border-left: 10px solid #df900f;"><strong>Portal CENPEC: Vocês têm uma caminhada em São Paulo sobre o Luiz Gama. Qual a importância de conhecer esse personagem e a sua atuação na história do Brasil? </strong></p>
-                <p style="padding-left: 1.4em;"><strong>Guillherme Dias:</strong> O Luiz Gama é o maior abolicionista no Brasil. Ele sozinho libertou cerca de 500 pessoas. Não há informações de outra pessoa que conseguiu libertar tantas pessoas, nem no Brasil nem em outro país que sofreu com a escravização. Então o legado dele é de resistência mesmo, de uma luta incansável e que passou por vários meios, como advogado, jornalista, poeta, ou na maçonaria, enfim, todos os espaços que ocupou ele levou a luta abolicionista. Então é uma figura que merece estar entre os heróis do Brasil, e que deveria ser mais estudado na escola e referenciado na mídia.</p>
-
-                <p style="padding: 1em;  border-left: 10px solid #df900f;"><strong>Portal CENPEC: Por que, apesar dessa importância, ele ficou (e ainda é) ausente ou pouco falado nas aulas de história?</strong></p>
-                <p style="padding-left: 1.4em;"><strong>Guillherme Dias:</strong> Muito por conta do racismo estrutural, que destaca os personagens brancos, por meio de datas e grandes monumentos, em detrimento de pessoas negras, que são apagadas da história. É o caso do Luiz Gama. Mas ele não é o único personagem negro grandioso e que não recebe o devido reconhecimento: isso se repete com outros pergonagens. No caso do Gama, ele foi muito feliz em documentar a sua própria história, deixou escritos que fazem com que a presença dele seja inegável, mas no caso de outros, por exemplo, Zumbi e Dandara dos Palmares, a gente tem inclusive o questionamento da existência. Daí que a gente vê a importância de ele ter registrado em documentos as passagens da sua vida.</p>
-
-                <p style="padding-left: 1.4em;">Sobre as aulas de história, não dá mais para a gente olhar para a história sem levar em conta a presença das pessoas negras e indígenas. Há muitos questionamentos importantes a se fazer nesse sentido, por exemplo: no 7 de setembro, que é chamado de Dia da Independência, onde estavam as pessoas negras nesse episódio? Por que quando se fala dessa Independência a gente não lembra onde elas estavam? Então, ao trazer datas e fatos históricos, é importante fazer sempre esses questionamento de onde estão pessoas negras e indígenas, e falar disso ao longo do ano, não somente no mês de novembro.</p>
-				
-				<div class="container text-center">
-				  <div class="row">
-					<div class="col col-lg-12">
-					  <a href="https://guianegro.com.br/evento/caminhada-luiz-gama-2/" target="_blank"><button type="button" class="btn" style="background-color: #df900f;"><strong>Saiba mais sobre a Caminhada Luiz Gama</strong></button></a>
-					</div>
-				  </div>
-				</div>
-				<p>&nbsp;</p>
-				</div>
-		</div>
-	</div>
-</div>
-</div>
-</div>
-	
-	
-	
-
-	
-	
-	
-<div class="divider-2"></div>
-  <div class="background-know-bicentenario" style="background-color: #f6ad30;font-size: 1.2em;">
-    <div class="container-know-bicentenario">	
-		<p>&nbsp;</p>
-				<p>&nbsp;</p>
-				
-<h2 style="font-size: 2.2em;font-family: Aleo;">Gama: nosso primeiro autor autodeclarado negro</h2>
-                <img src="https://www.cenpec.org.br/wp-content/uploads/2023/11/livro.png" class="img-lg">
-				<p>As <em>Primeiras trovas burlescas de Getulino </em>foi a única obra literária publicada por Luiz Gama, em fins do século XIX, num Brasil escravocrata, em que a maioria da população era africana e afrodescendente.</p>
-				<p>A obra é composta por poemas satíricos que tematizam questões sociais, políticas e raciais do Brasil recém-independente. A primeira edição, de 1959, traz 22 poemas de Luiz Gama e 3 poemas do amigo José Bonifácio, o Moço, parceiro de luta abolicionista e republicana.  Em 1961, a obra ganhou uma segunda edição revista e ampliada, que reuniu 39 textos de Luiz Gama e 10 poemas de  José Bonifácio.</p>
-				<p>No auge do romantismo, em que a escravidão desponta como tema e as pessoas negras como personagens, a obra inaugura uma figura até então ausente na literatura brasileira: <strong>o autor negro, que se assume como tal (“negro sou”)</strong>. Ou, como ele declara em “Lá vai o verso”:</p>
-				<p></p>
-				<p style="text-align: center;font-size: 1.1em;"><em>"Quero que o mundo me encarando veja, Um retumbante Orfeu de carapinha"</em></p>
-		
-				
-				<img src="https://www.cenpec.org.br/wp-content/uploads/2023/11/mapa-africa-1.png" class="img-lg" style="float: right;">
-				<p>Não por acaso, o pseudônimo impresso no título: “Getulino” remete a “Getúlia”, território da África do Norte, entre as atuais Argélia e Mauritânia, habitado na Antiguidade pelos getulos, grupo étnico pertencente ao povo berbere.</p>
-				<p>&nbsp;</p>
-		
-				<h3 style="font-size: 1.3em;font-family: Aleo;">Contexto:</h3>
-		
-				<p>A primeira edição edição das <em>Primeiras trovas burlescas de Getulino</em> (PTB) veio a público em 1859, mesmo ano em que foi publicado Úrsula, considerado o primeiro romance abolicionista brasileiro, e sua autora, a maranhense Maria Firmina dos Reis, a primeira mulher e negra a publicar um romance em nossas terras. A professora Lígia Fonseca Ferreira fala sobre esse cenário literário:</p>
-				<p><em>“No final dos anos 1850, a vida intelectual marca-se ainda fortemente pela mística indianista a alimentar projetos de fundação de uma literatura genuinamente brasileira quando surge o grande romance nacional - O Guarani (1857), de José de Alencar. Porém, outras manifestações então menos visíveis, por acontecer longe dos holofotes da Corte, vêm sendo hoje trazidas à tona, como a emergência da autoria negra. No Maranhão, coincide com as PTB a publicação de Úrsula, tido como primeiro romance abolicionista brasileiro, da escritora afrodescendente Maria Firmina dos Reis, é também de 1859, em gênero e estilo totalmente opostos às PTB, o volume Primaveras, obra única de Casimiro de Abreu, poeta menor alçado a estatura maior, com direito a vaga na Academia Brasileira de Letras, graças ao sucesso alcançado com poesias em linguagem simples, dedicadas à saudade da infância, a natureza, o sentimentalismo religioso, o patriotismo difuso etc.” (FERREIRA, 2019.)</em></p>
-				<p>&nbsp;</p>
-		
-				<h3 style="font-size: 1.3em;font-family: Aleo;">A Bodarrada</h3>
-		
-				<p>Em contraponto ao lirismo então reinante, as trovas (poemas) de Luiz Gama se destacam pela sátira aos costumes e preconceitos de sua época, e à defesa da cultura negra e da africanidade.</p>
-				<p>Um dos poemas mais famosos desta obra é "Quem sou eu?", que ficou mais conhecido pelo subtítulo, "A Bodarrada" - em referência a "bode", forma pejorativa como eram tratadas as pessoas negras que se opunham ao regime escravocrata. No trecho a seguir, destacamos versos em que o autor faz referência a sua cor e identidade étnico-racial:</p>
-		
-				<div style="background-image: url('https://www.cenpec.org.br/wp-content/uploads/2023/11/0090b-512x512-1.webp');background-repeat: repeat-y;width:380px;padding:26px;margin: 0 auto;border-radius: 0 26px 0 26px;">
-				<p style="text-align: center;"><em>"Eu bem sei que sou qual Grilo,<br>
-				De maçante e mau estilo;<br>
-				E que os homens poderosos<br>
-				Desta arenga receosos<br>
-				Hão de chamar-me tarelo,<br>
-				Bode, negro, Mongibelo;<br>
-				Porém eu que não me abalo,<br>
-				Vou tangendo o meu badalo<br>
-				Com repique impertinente,<br>
-				Pondo a trote muita gente.<br>
-				Se negro sou, ou sou bode<br>
-				Pouco importa. O que isto pode?<br>
-				Bodes há de toda a casta,<br>
-				Pois que a espécie é muito vasta…<br>
-				Há cinzentos, há rajados,<br>
-				Baios, pampas e malhados,<br>
-				Bodes negros, bodes brancos,<br>
-				E, sejamos todos francos,<br>
-				Uns plebeus, e outros nobres,<br>
-				Bodes ricos, bodes pobres,<br>
-				Bodes sábios, importantes,<br>
-				E também alguns tratantes..."</em></p>
-				</div>
-				<p>&nbsp;</p>
-
-				
-				<p>O livro também traz poemas satirizando a Faculdade de Direito e seus “doutores”,o alvos frequentes do sarcasmo de Gama, como nesta estrofe de "Lá vai o verso":</p>
-				
-				<div style="background-image: url('https://www.cenpec.org.br/wp-content/uploads/2023/11/0090b-512x512-1.webp');background-repeat: repeat-y;width:380px;padding:26px;margin: 0 auto;border-radius: 0 26px 0 26px;">	
-				<p style="text-align: center;">
-				<em>"Se temos majestosas Faculdades,<br>
-				Onde imperam egrégias potestades,<br>
-				E, apesar das luzes dos mentores,<br>
-				Os burregos também saem Doutores;<br>
-				Se varões de preclara inteligência,<br>
-				Animam a defender a decadência,<br>
-				E a Pátria sepultando em vil desdouro,<br>
-				Perjuram como Judas – só por ouro:<br>
-				É que o sábio, no Brasil, só quer lambança,<br>
-				Onde possa empantufar a larga pança!"</em></p>
-				</div>	
-				<p>&nbsp;</p>
-
-
-				<p>Embora em menor número, Luiz Gama também compôs poemas líricos, em que exalta a mãe e a mulher negra. Segundo a pesquisadora Ligia Fonseca Ferreira (Unifesp), são de sua autoria os primeiros poemas dedicados à mulher negra em nossa literatura. Dois exemplos disso são os poemas “A cativa”, que está presente nas duas edições de <em>Primeiras trovas burlescas de Getulino</em>, e “Meus amores”, publicado no semanário Diabo Coxo, em 1865. </p>
-				<p>&nbsp;</p>
-		
-	 </div>
-	</div>
-	
-	
-<div style="width: 100%">
-    <img src="https://www.cenpec.org.br/wp-content/uploads/2023/11/lines_gama.jpg" style="width:100%;">
-</div>
-
-
-<div id="content" class="container mt-5" style="font-size: 1.2em;">
-        <div class="row">
-            <div id="primary" class="col content-area">
-                <main id="main" class="site-main">
-  
-    <div>
-        <div>
-
-            <div id="texto" class="col-lg-12" style="padding: 0 6% 3% 6%;">		
-				
-                 <h2 style="font-size: 2.2em;font-family: Aleo;">Entrevista com Ligia Fonseca Ferreira</h2>
-	                 <p>&nbsp;</p>	
-				
-				<div class="container">
-			  <div class="row">
-				<div class="col-lg">
-				  <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porttitor porttitor lectus ac sodales. Pellentesque ut tincidunt leo, id vehicula diam. </h4>
-					<h4>Proin et risus eu magna molestie egestas sit amet non quam. Aenean eros enim, ullamcorper a semper nec, accumsan id mauris. Fusce nisi massa, dignissim et maximus ut, tincidunt cursus ex.</h4>
-				</div>
-				<div class="col-lg">
-				  <iframe class="videos-lg" src="https://www.youtube.com/embed/tpm3dqFDZwg?si=6Ps8ENS5frJlEanm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-				</div>
-			  </div>
-			</div>
-				
-				
-
-				<p>&nbsp;</p>
-				</div>
-		</div>
-	</div>
-</div>
-</div>
-</div>
-	
-
-
-<div class="divider-2"></div>
-  <div class="background-know-bicentenario" style="background-color: #f6ad30;font-size: 1.2em;">
-    <div class="container-know-bicentenario">	
-		<p>&nbsp;</p>
-				<p>&nbsp;</p>
-				
-<h2 style="font-size: 2.2em;font-family: Aleo;">De ex-escravizado e autodidata a “autor”: a produção literária de Luiz Gama</h2>
-                <img src="https://www.cenpec.org.br/wp-content/uploads/2019/06/milton_santos_geografo.png" class="img-fluid" style="float: right;width:100%;max-width: 300px;display:inline-block;padding: 0 12px 12px 0;">
-				<p><em>"Luiz Gama começou tardiamente seu letramento, e assim que resgatou sua liberdade, buscou uma “segunda” liberdade: a liberdade do conhecimento, da conquista da palavra. Jamais frequentou escolas e “academias” (referindo-se à “Academia de Direito de São Paulo”, uma das únicas instituições de ensino superior no Brasil). Orgulhava-se de ser um autodidata, confessava-se um leitor voraz. E essa transformação é um dentre tantos fatos extraordinários que marcaram a vida de um homem negro, um ex-escravizado que se tornaria um autor. Aqui o sentido desta palavra é mais amplo do que lhe emprestam acepções presentes no Dicionário Houaiss da Língua Portuguesa: não se trata apenas de um sinônimo de “escritor”, não se limita apenas à “pessoa que produz ou compõe obra literária, artística ou científica”. A noção de “autor” é aqui compreendida como aquele que introduz uma enunciação em primeira pessoa, o que permitirá a Luiz Gama introduzir a voz negra na literatura brasileira, em pleno período romântico, cerca de trinta anos antes da Abolição da Escravidão, quando o negro começava a despontar como personagem na literatura produzida por autores brancos."</em></p>
-				<p>Confira na íntegra o artigo da professora Ligia Fonseca Ferreira (Unifesp) publicado no portal Escrevendo o Futuro em 22 de novembro de 2023.</p>
-		
-				<div class="container text-center">
-				  <div class="row">
-					<div class="col col-lg-12">
-					  <a href="https://www.escrevendoofuturo.org.br/conteudo/sua-pratica/reflexao-teorica/389/de-ex-escravizado-e-autodidata-a-autor-a-producao-literaria-de-luiz-gama" target="_blank"><button type="button" class="btn" style="background-color: #000;color:#fff;width:35%"><strong>LEIA AQUI</strong></button></a>
-					</div>
-				  </div>
-				</div>
-				<p>&nbsp;</p>
-				</div>
-		
-	 </div>
-	</div>
-	
-	
-<div style="width: 100%">
-    <img src="https://www.cenpec.org.br/wp-content/uploads/2023/11/lines_gama.jpg" style="width:100%;">
-</div>
-
-  <div class="container-midiateca-bicentenario">
-    <div class="especial-bicentenario">
-      <header class="header-midiateca-bicentenario">
-		  <p>&nbsp;</p>
-        <h1 style="font-size: 2.2em;font-family: Aleo;">Midiateca</h1>
-        <article class="vertical-line-and-text">
-          <div class="vertical-line"></div>
-          <h4 class="highlighted-text" style="font-size: 1.3em;font-family: Aleo;">Audiovisuais e podcasts</h4>
-			<p>&nbsp;</p>
-        </article>
-      </header>
-		
-		<div class="row" style="text-align: center">
-				<div class="col-lg">
-					<iframe src="https://www.youtube.com/embed/GaYngeqrk0g?si=8RkFCj3dRyhPmGxl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="videos-lg"></iframe>
-					<h3><strong>Documentário Luiz Gama na Pequena África (Nova Criativa Social, 2023)</strong></h3>
-					<p>A produção une as histórias de Luiz Gama e da Pequena África, local histórico no Rio de Janeiro conhecido por abrigar africanos e afrodescendentes que chegavam à capital. A proposta da obra, lançada em janeiro de 2023, é provocar reflexões sobre o período escravocrata no país e estimular o público a conhecer a região, que fica na Zona Portuária da cidade.</p>
-				  
-				</div>
-				<div class="col-lg">
-					<iframe src="https://www.youtube.com/embed/jb8Gp0kGsUg?si=Z2yOKzNpQt94v1j4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="videos-lg"></iframe>
-					<h3><strong>Band Jornalismo: Por que apagaram Luiz Gama da história?</strong></h3>
-					<p>Entrevista com a professora Lígia Fonseca Ferreira/Unifesp</p>
-				</div>
-		</div>
-		<div class="row" style="text-align: center">
-				<div class="col-lg">
-					<iframe src="https://www.youtube.com/embed/fpQbv2W_ECQ?si=MmLo8lceEU08tog5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="videos-lg"></iframe>
-					<h3><strong>Filme Doutor Gama (Direção: Jeferson De). Brasil, 2021 (trailer)</strong></h3>
-					<p>Doutor Gama é baseado na biografia de Luiz Gama, um dos personagens mais importantes da história brasileira, homem negro que utilizou as leis e os tribunais para libertar mais de 500 escravos. </p>
-				  
-				</div>
-				<div class="col-lg">
-					<iframe src="https://www.youtube.com/embed/701MyLwrNlk?si=4l_dtYqvVver40MF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="videos-lg"></iframe>
-					<h3><strong>Podcast Canal Bruta - Conheça Luís Gama com Lígia Fonseca Ferreira, episódio 59.
-</strong></h3>
-					<p> Conheça de perto quem foi essa grande personalidade da nossa história, um advogado autodidata que libertou mais de 500 escravos, e que pode ser considerado, como afirma Lígia, um patrono da abolição e da luta anti-racista.</p>
-				</div>
-		</div>
-		<div class="row" style="text-align: center">
-				<div class="col-lg">
-					<a href="https://open.spotify.com/episode/7mikThnTBWPZKKr8BXe0gH?si=7b58752bcca94cd9" target="_blank"><img src="https://www.cenpec.org.br/wp-content/uploads/2023/11/podcast-crisalida.jpg" style="width:100%;max-width:480px;"></a>
-					<h3><strong>Podcast Crisálida de ar #21 - Primeiras trovas burlescas, de Luiz Gama</strong></h3>
-					<p>Um episódio muito especial sobre uma das maiores referências de luta e intelectualidade: o poeta, jornalista e advogado Luiz Gama, o maior líder abolicionista do Brasil.</p>
-				  
-				</div>
-		</div>
-    </div>
-  </div>
-
-<div class="divider-2"></div>
-
-<div class="container-midiateca-bicentenario">
-    <div class="especial-bicentenario">
-		<article class="vertical-line-and-text">
-          <div class="vertical-line"></div>
-          <h4 class="highlighted-text" style="font-size: 1.3em;font-family: Aleo;">Livros, artigos e reportagens</h4>
-			<p>&nbsp;</p>
-        </article>
-	
-		<div class="row" style="text-align: center">
-				<div class="col-lg">
-					<a href="https://digital.bbm.usp.br/bitstream/bbm/4905/1/008938_COMPLETO.pdf" target="_blank"><img src="https://www.cenpec.org.br/wp-content/uploads/2023/11/podcast-crisalida.jpg" style="width:100%;max-width:480px;"></a>
-					<h3><strong>GAMA, Luiz.  Primeiras trovas burlescas de Getulino. 1859. Acervo da Fundação Biblioteca Nacional, disponível para download no site da Biblioteca Brasiliana Mindlin.</strong></h3>
-					<p>Único livro publicado em vida por Luiz Gama, traz sátiras sociais, políticas e raciais sobre o Brasil de sua época. A primeira edição, de 1959, foi composta por 22 poemas de Luiz Gama e 3 poemas do amigo e também abolicionista José Bonifácio, o Moço.  Dois anos depois, a obra ganhou uma segunda edição ampliada, reunindo 39 textos de Luiz Gama e 10 poemas de  José Bonifácio.</p>
-				  
-				</div>
-				<div class="col-lg">
-					<a href="" target="_blank"><img src="https://www.cenpec.org.br/wp-content/uploads/2023/11/podcast-crisalida.jpg" style="width:100%;max-width:480px;"></a>
-					<h3><strong>GAMA, Luiz. Lições de resistência: artigos de Luiz Gama na imprensa de São Paulo e do Rio de Janeiro. Lígia Fonseca Ferreira (Org.). Sesc Edições, 2021.</strong></h3>
-					<p>Organizadas pela professora Lígia Fonseca Ferreira (Unifesp), essas obras possuem os textos integrais escritos por Gama no período pré-abolicionista e pré-republicano.</p>
-				</div>
-				<div class="col-lg">
-					<a href="" target="_blank"><img src="https://www.cenpec.org.br/wp-content/uploads/2023/11/podcast-crisalida.jpg" style="width:100%;max-width:480px;"></a>
-					<h3><strong>CARVALHO, Gilberto de Abreu Sodré. O advogado e o imperador: a história de um herói brasileiro. Duna Dueto, 2015.</strong></h3>
-					<p>A condição degradante das pessoas negras no Brasil do século XIX, após três séculos de escravidão, é retratada neste romance histórico centrado na vida do abolicionista Luiz Gama. A relação entre o abolicionista e o imperador põe em debate questões como liberdade e justiça social, apontando a omissão do Dom Pedro II sobre a questão escravista e um projeto de país que incluísse todas as pessoas. </p>
-				</div>
-		</div>
-		<div class="row" style="text-align: center">
-				<div class="col-lg">
-					<a href="https://correio.ims.com.br/carta/lances-doridos/" target="_blank"><img src="https://www.cenpec.org.br/wp-content/uploads/2023/11/podcast-crisalida.jpg" style="width:100%;max-width:480px;"></a>
-					<h3><strong>CORREIOS IMS. Lances doridos. De: Luiz Gama Para: Lúcio de Mendonça. São Paulo, 25 de julho de 1880.</strong></h3>
-					<p>Esta célebre carta de 1880 é uma resposta de Luiz Gama pedido que lhe fez o advogado, jornalista e escritor Lúcio de Mendonça, idealizador da Academia Brasileira de Letras, para que lhe contasse os fatos dramáticos de sua vida, como filho de negra, africana livre, e pai de origem portuguesa. A experiência de vida relatada foi determinante para sua trajetória como um dos maiores abolicionistas brasileiros.</p>
-				</div>
-				<div class="col-lg">
-					<a href="https://www.revistas.usp.br/teresa/article/download/116741/114299/214577" target="_blank"><img src="https://www.cenpec.org.br/wp-content/uploads/2023/11/podcast-crisalida.jpg" style="width:100%;max-width:480px;"></a>
-					<h3><strong>FERREIRA,  Lígia Fonseca. Luiz Gama por Luiz Gama: carta a Lúcio de Mendonça. Teresa revista de Literatura Brasileira [819]; São Paulo, p. 300-321, 2008.</strong></h3>
-					<p>Neste artigo, a professora Lígia Fonseca destaca o ineditismo da carta de 1880, em que Gama revela episódios fundamentais de sua vida e que só vem à luz nos anos 1930.</p>
-				</div>
-				<div class="col-lg">
-					<a href="https://digital.bbm.usp.br/bitstream/bbm/4905/1/008938_COMPLETO.pdf" target="_blank"><img src="https://www.cenpec.org.br/wp-content/uploads/2023/11/podcast-crisalida.jpg" style="width:100%;max-width:480px;"></a>
-					<h3><strong>GAMA, Luiz.  Primeiras trovas burlescas de Getulino. 1859. Acervo da Fundação Biblioteca Nacional, disponível para download no site da Biblioteca Brasiliana Mindlin.</strong></h3>
-					<p>Único livro publicado em vida por Luiz Gama, traz sátiras sociais, políticas e raciais sobre o Brasil de sua época. A primeira edição, de 1959, foi composta por 22 poemas de Luiz Gama e 3 poemas do amigo e também abolicionista José Bonifácio, o Moço.  Dois anos depois, a obra ganhou uma segunda edição ampliada, reunindo 39 textos de Luiz Gama e 10 poemas de  José Bonifácio.</p>
-				  
-				</div>
-		</div>
-		<div class="row" style="text-align: center">
-				<div class="col-lg">
-					<a href="https://doi.org/10.1590/s0103-4014.2019.3396.0008" target="_blank"><img src="https://www.cenpec.org.br/wp-content/uploads/2023/11/podcast-crisalida.jpg" style="width:100%;max-width:480px;"></a>
-					<h3><strong>FERREIRA, Ligia Fonseca. Luiz Gama autor, leitor, editor: revisitando as Primeiras Trovas Burlescas de 1859 e 1861. Tinta negra, papel branco: escritas afrodescendentes e emancipação. Estud. av. 33 (96), maio-ago. 2019.</strong></h3>
-					<p>Por meio do cotejo entre as duas primeiras edições das Primeiras Trovas Burlescas, de Luiz Gama, o artigo acompanha nascimento, formação e evolução do autor, desde o início envolvido na organização e produção editorial de seus livros. Busca identificar, através das epígrafes, as referências seguidas pelo poeta, em especial a obra do poeta português Faustino Xavier de Novais. Por fim, observa as mudanças e as etapas de uma edição a outra.</p>
-				</div>
-				<div class="col-lg">
-					<a href="https://www.scielo.br/j/ea/a/zJHRTBVXN8tqfnkJNhG5YPk/#:~:text=Poeta%2C%20jornalista%20e%20advogado%2C%20Luiz,provas%20de%20ter%20nascido%20livre." target="_blank"><img src="https://www.cenpec.org.br/wp-content/uploads/2023/11/podcast-crisalida.jpg" style="width:100%;max-width:480px;"></a>
-					<h3><strong>FERREIRA, L. F. Luís Gama: um abolicionista leitor de Renan. Estudos Avançados, v. 21, n. 60, p. 271-288, 2007.</strong></h3>
-					<p>O historiador e filósofo Ernest Renan exerceu grande influência, hoje um tanto esquecida, sobre uma boa parte da elite intelectual brasileira engajada em reformas e movimentos que caracterizam a transição da Monarquia para a República. Entre eles, destaca-se o abolicionista Luiz Gama, caso único de um ex-escravo autodidata que alcança projeção no cenário político e na República das Letras.</p>
-				</div>
-				<div class="col-lg">
-					<a href="http://escritos.rb.gov.br/numero05/FCRB_Escritos_5_9_Christiane_Laidler.pdf" target="_blank"><img src="https://www.cenpec.org.br/wp-content/uploads/2023/11/podcast-crisalida.jpg" style="width:100%;max-width:480px;"></a>
-					<h3><strong>LAIDLER, Christiane. A Lei do Ventre Livre: interesses e disputas em torno do projeto de “abolição gradual”. Escritos - Revista da Fundação Casa de Rui Barbosa, ano 5, n. 5. 2011.</strong></h3>
-					<p>O artigo da professora de História Contemporânea da UERJ analisa o processo de negociações políticas em torno do projeto de abolição gradual da escravidão no Brasil. A Lei do Ventre Livre, aprovada após uma intensa batalha parlamentar, foi considerada pelo movimento abolicionista uma farsa que objetivou apenas garantir uma sobrevida maior ao regime escravista. Esse discurso de desqualificação se enraizou profundamente na memória da sociedade e foi traduzido de maneira abrangente pela historiografia.</p>
-				  
-				</div>
-		</div>
-		<div class="row" style="text-align: center">
-				
-				<div class="col-lg">
-					<a href="" target="_blank"><img src="https://www.cenpec.org.br/wp-content/uploads/2023/11/podcast-crisalida.jpg" style="width:100%;max-width:480px;"></a>
-					<h3><strong>HORA DO POVO. O homem do 13 de Maio – em homenagem a Luiz Gama. Publicado em 13 de maio de 2021</strong></h3>
-					<p></p>
-				</div>
-				<div class="col-lg">
-					<a href="https://www.scielo.br/j/ea/a/zJHRTBVXN8tqfnkJNhG5YPk/#:~:text=Poeta%2C%20jornalista%20e%20advogado%2C%20Luiz,provas%20de%20ter%20nascido%20livre." target="_blank"><img src="https://www.cenpec.org.br/wp-content/uploads/2023/11/podcast-crisalida.jpg" style="width:100%;max-width:480px;"></a>
-					<h3><strong>POLITIZE! Luiz Gama: conheça a história do maior abolicionista do Brasil (por Isabela Alves - publicado em: 19/11/2022, atualizado em: 5/08/2023)</strong></h3>
-					<p>Reportagem sobre a vida, obra e legado deste grande advogado, abolicionista, escritor e jornalista.</p>
-				</div>
-				<div class="col-lg">
-					<a href="https://museunacional.ufrj.br/dir/exposicoes/etnologia/africanos-no-brasil.html" target="_blank"><img src="https://www.cenpec.org.br/wp-content/uploads/2023/11/podcast-crisalida.jpg" style="width:100%;max-width:480px;"></a>
-					<h3><strong>MUSEU NACIONAL. Africanos no Brasil.</strong></h3>
-					<p></p>
-				  
-				</div>
-			
-		</div>
-		<div class="row" style="text-align: center">
-
-				<div class="col-lg">
-					<a href="https://repositorio.ufba.br/bitstream/ri/2097/1/CadCRH-2007-391.pdf" target="_blank"><img src="https://www.cenpec.org.br/wp-content/uploads/2023/11/podcast-crisalida.jpg" style="width:100%;max-width:480px;"></a>
-					<h3><strong>COSTA, Ana de Lourdes Ribeiro da. Espaços negros: "cantos" e "lojas" em Salvador no século XIX. Caderno CRH. Suplemento, p. 18-34, 1991.</strong></h3>
-					<p></p>
-				</div>
-				<div class="col-lg">
-					<a href="https://mst.org.br/2020/11/06/183-anos-da-sabinada-luta-por-uma-republica-bahiense-livre-e-independente/" target="_blank"><img src="https://www.cenpec.org.br/wp-content/uploads/2023/11/podcast-crisalida.jpg" style="width:100%;max-width:480px;"></a>
-					<h3><strong>ARAÚJO, Jamile. 183 anos da Sabinada: luta por uma República Bahiense livre e independente. MST, 2020.</strong></h3>
-					<p></p>
-				</div>
-				<div class="col-lg">
-						<a href="https://www.tjsp.jus.br/Museu/ExposicaoVirtual/LuizGama" target="_blank"><img src="https://www.cenpec.org.br/wp-content/uploads/2023/11/podcast-crisalida.jpg" style="width:100%;max-width:480px;"></a>
-						<h3><strong>TRIBUNAL DE JUSTIÇA DE SÃO PAULO (TJSP). Exposição Luiz Gama e o Judiciário Paulista no século XIX. </strong></h3>
-						<p>Esta exposição apresenta o conteúdo resumido de 3 dos 32 processos ingressados por Luiz Gama no Tribunal da Relação de São Paulo. Por meio deles, é possível desvendar e aprender sobre o contexto histórico, a legislação, os costumes e as campanhas abolicionistas que tiveram no Judiciário parte importante para a libertação de escravizados.</p>
-
-				</div>
-		</div>
-		<div class="row" style="text-align: center">
-				
-				<div class="col-lg">
-					<a href="https://horadopovo.com.br/o-homem-do-13-de-maio-em-homenagem-a-luiz-gama/" target="_blank"><img src="https://www.cenpec.org.br/wp-content/uploads/2023/11/podcast-crisalida.jpg" style="width:100%;max-width:480px;"></a>
-					<h3><strong>HORA DO POVO. O homem do 13 de Maio – em homenagem a Luiz Gama. Publicado em 13 de maio de 2021.</strong></h3>
-					<p>A matéria, em homenagem ao 13 de maio, reproduz "Última página da vida de um grande homem", artigo do escritor Raul Pompeia, um dos discípulos de Luiz Gama, publicado na Gazeta de Notícias em 10 de setembro de 1882, logo após o funeral de Gama.</p>
-				</div>
-				<div class="col-lg">
-					<a href="https://www.bbc.com/portuguese/brasil-58034244" target="_blank"><img src="https://www.cenpec.org.br/wp-content/uploads/2023/11/podcast-crisalida.jpg" style="width:100%;max-width:480px;"></a>
-					<h3><strong>BBC NEWS BRASIL. Luiz Gama: textos inéditos mostram como abolicionista denunciava violência policial no século 19. Reportagem de Leandro Machado, 2 ago 2021.</strong></h3>
-					<p></p>
-				</div>
-				<div class="col-lg">
-					<a href="https://www.bbc.com/portuguese/geral-54959907" target="_blank"><img src="https://www.cenpec.org.br/wp-content/uploads/2023/11/podcast-crisalida.jpg" style="width:100%;max-width:480px;"></a>
-					<h3><strong>______. .Dia da Consciência Negra: quem foi Luiz Gama, figura-chave no movimento abolicionista brasileiro. Entrevista de Ligia Fonseca Ferreira publicada originalmente em 19 nov. 2020.</strong></h3>
-					<p></p>
-				  
-				</div>
-		</div>
-		<div class="row" style="text-align: center">
-				
-				<div class="col-lg">
-					<a href="https://www.bbc.com/portuguese/brasil-57014874" target="_blank"><img src="https://www.cenpec.org.br/wp-content/uploads/2023/11/podcast-crisalida.jpg" style="width:100%;max-width:480px;"></a>
-					<h3><strong>______. Luiz Gama: A desconhecida ação judicial com que advogado negro libertou 217 escravizados no século 19.</strong></h3>
-					<p></p>
-				</div>
-				<div class="col-lg">
-					<a href="https://digital.bbm.usp.br/view/?45000008790&bbm/4777#page/6/mode/2up" target="_blank"><img src="https://www.cenpec.org.br/wp-content/uploads/2023/11/podcast-crisalida.jpg" style="width:100%;max-width:480px;"></a>
-					<h3><strong>PATROCÍNIO, José do. Manifesto da Confederação Abolicionista do Rio de Janeiro, 1883.</strong></h3>
-					<p></p>
-				</div>
-				<div class="col-lg">
-					<a href="https://memoriatrt2.wordpress.com/2020/08/24/luiz-gama-as-grandes-trovas-de-um-icone/" target="_blank"><img src="https://www.cenpec.org.br/wp-content/uploads/2023/11/podcast-crisalida.jpg" style="width:100%;max-width:480px;"></a>
-					<h3><strong>PORTAL DA MEMÓRIA DO TRT-2. Luiz Gama: as grandes trovas de um ícone, 2020. </strong></h3>
-					<p>Reportagem traz fatos importantes da vida e da obra do grande abolicionista, acompanhado de vasta iconografia.</p>
-				  
-				</div>
-		</div>
-		<div class="row" style="text-align: center">
-				
-				<div class="col-lg">
-					<a href="https://zumbidospalmares.edu.br/conheca-luisa-mahin-revolucionaria-negra-brasileira/" target="_blank"><img src="https://www.cenpec.org.br/wp-content/uploads/2023/11/podcast-crisalida.jpg" style="width:100%;max-width:480px;"></a>
-					<h3><strong>UNIVERSIDADE ZUMBI DOS PALMARES. Conheça Luísa Mahin, revolucionária negra, 2022.</strong></h3>
-					<p></p>
-				</div>
-				<div class="col-lg">
-					<a href="http://educa.fcc.org.br/pdf/exitus/v10/2237-9460-exitus-10-e020078.pdf" target="_blank"><img src="https://www.cenpec.org.br/wp-content/uploads/2023/11/podcast-crisalida.jpg" style="width:100%;max-width:480px;"></a>
-					<h3><strong>SANTOS, Sales Augusto dos; FARIA, Luis Gustavo de Paiva. Os projetos de abolição de Joaquim Nabuco e Luís Gama. Revista Exitus, Santarém/PA, Vol. 10, p. 01-31, e020078, 2020.</strong></h3>
-					<p></p>
-				</div>
-		</div>
-    </div>
-  </div>
-	
-	
-	
-	
-  <div class="divider-2"></div>
-  <div class="background-know-bicentenario">
-    <div class="container-know-bicentenario">
-      <header><article class="vertical-line-and-text">
-        <div class="vertical-line"></div>
-        <h4 class="highlighted-text">Saiba mais</h4>
-      </article></header>
-      <ul class="ul-circle-bicentenario">
-        <li>
-          BOAVENTURA, Edivaldo M. <a href="https://www2.senado.leg.br/bdsf/bitstream/handle/id/176502/000518632.pdf?sequence=3&isAllowed=y" style="font-weight: 600; color: #6caf1e;" target="_blank "> A educação nos 50 anos da Constituição de 1946</a>. Brasília a. 33 n. 132 out./dez. 1996.  
-        </li>
-        <li>
-          BOMENY, Helena. <a href="https://cpdoc.fgv.br/sites/default/files/verbetes/primeira-republica/REFORMAS%20EDUCACIONAIS%20.pdf" style="font-weight: 600; color: #6caf1e;" target="_blank "> Reformas educacionais</a>. FGV/CPDOC, [s.d.].
-        </li>
-        <li>
-          BOTO, Carlota.<a href="https://www.scielo.br/j/rbh/a/mG5H6Sd6J57GBykGKGHvmcv/?lang=pt" style="font-weight: 600; color: #6caf1e;" target="_blank "> A escola primária como tema do debate político às vésperas da República</a>. Rev. Bras. Hist. 19 (38), 1999.
-        </li>
-        <li>
-          CURY, Carlos Roberto Jamil.<a href="https://edisciplinas.usp.br/pluginfile.php/5535858/mod_folder/content/0/CURY%28A%20educa%C3%A7%C3%A3o%20nas%20constitui%C3%A7%C3%B5es%20brasileiras%29.pdf?forcedownload=1" style="font-weight: 600; color: #6caf1e;" target="_blank "> A educação nas Constituições brasileiras</a>. In: Histórias e memórias da educação no Brasil, v. III: século XX. STEPHANOU, Maria;  BASTOS, Maria Helena C. Petrópolis, RJ: Vozes, 2005.
-        </li>
-        <li>
-          <a href="https://www.scielo.br/j/es/a/STwFwhmwJLWTsqMpBKPVDKw/?format=pdf&lang=pt" style="font-weight: 600; color: #6caf1e;" target="_blank ">Sistema Nacional de Educação</a>: desafios para uma educação igualitária e federativa. Educ. Soc., Campinas, vol. 29, n. 105, p. 1187-1209, set./dez. 2008.
-        </li>
-        <li>
-          <a href="http://educa.fcc.org.br/scielo.php?script=sci_abstract&pid=S0100-15742008000200002&lng=pt&nrm=iso" style="font-weight: 600; color: #6caf1e;" target="_blank ">A educação básica como direito</a>. Cad. Pesqui. [online]. 2008, vol.38, n.134, pp.293-303
-        </li>
-        <li>
-          <a href="http://www.pmf.sc.gov.br/arquivos/arquivos/pdf/22_11_2019_14.59.25.bb7533c25258bfd844227a10380d6a5d.pdf" style="font-weight: 600; color: #6caf1e;" target="_blank ">“Sujeitos e processos de aprendizagens: tramas da educação básica”</a>. Congresso de Educação Básica (Coeb) 2019: Identidades, Práticas e Aprendizagens da Educação Básica, 4 e 5 de fevereiro de 2019.
-        </li>
-        <li>
-          <a href="https://seer.ufu.br/index.php/che/article/view/52699/28150" style="font-weight: 600; color: #6caf1e;" target="_blank"> Direito à educação,escravatura e ordenamento jurídico no Brasil Império</a>. Cadernos de História da Educação, v.19, n.1, p. 110-148, jan.-abr. 2020.
-        </li>
-        <li>
-          DALLABRIDA, Norberto.<a href="https://revistaseletronicas.pucrs.br/ojs/index.php/faced/article/download/5520/4015/" style="font-weight: 600; color: #6caf1e;" target="_blank"> A reforma Francisco Campos e a modernização nacionalizada do ensino secundário</a> . Educação, Porto Alegre, v. 32, n. 2, p. 185-191, maio/ago. 2009.
-        </li>
-
-        <li>
-          DR. ROSINHA.<a href="https://congressoemfoco.uol.com.br/temas/direitos-humanos/lei-de-cotas%e2%80%8b-%e2%80%93-a-desinformacao-e-o-paralelo-historico/" style="font-weight: 600; color: #6caf1e;" target="_blank"> Lei de cotas​ – a desinformação e o paralelo histórico</a>. Congresso em Foco, 2017.
-        </li>
-        <li>
-          FERNANDES, Claudia Monteiro. <a href="https://www.cenpec.org.br/noticias/uma-decada-da-lei-de-cotas-avancos-e-desafios" style="font-weight: 600; color: #6caf1e;" target="_blank"><i>Uma década da Lei de cotas: avanços e desafios</i></a>. Cenpec, 2022.
-        </li>
-        <li>
-          FERREIRA JR., Amarilio; BITTAR, Marisa. <a href="https://www.scielo.br/j/es/a/68LFXzgCbjBWcy5m97dXTXC/?lang=pt" style="font-weight: 600; color: #6caf1e;" target="_blank">A ditadura militar e a proletarização dos professores</a>. Educ. Soc. 27 (97), dez 2006.
-        </li>
-        <li>
-          FNDE. Formação pela Escola. <a href="http://www.labtime.ufg.br/modulos/fundeb1/mod1_uni1_sl20.html" style="font-weight: 600; color: #6caf1e;" target="_blank">Fundeb: origem e fundamentos</a> (curso 1.) LabTIME/UFG, [s.d]
-        </li>
-        <li>
-          GONÇALVES, Luiz Alberto Oliveira; GONÇALVES E SILVA, Petronilha Beatriz.<a href="https://www.scielo.br/j/rbedu/a/8rz8S3Dxm9ZLBghPZGKtPjv/?format=pdf&lang=pt" style="font-weight: 600; color: #6caf1e;" target="_blank"> Movimento negro e educação</a>. Rev. Bras. Educ. [online]. 2000, n.15, p.134-158. 
-        </li>
-        <li>
-          MEC/INEP. <a href="https://download.inep.gov.br/publicacoes/institucionais/estatisticas_e_indicadores/estatisticas_da_educacao_basica_no_brasil.pdf" style="font-weight: 600; color: #6caf1e;" target="_blank">Estatística da educação básica no Brasil </a> <i>(dados Relatório sobre o Desenvolvimento Humano no Brasil</i>. Brasília: PNUD/Ipea, 1996.).
-        </li>
-        <li>
-          MEDEIROS, Juliana Schneider.  <a href="http://www.eeh2018.anpuh-rs.org.br/resources/anais/8/1534418335_ARQUIVO_TextoAnpuhRS-JulianaMedeiros_.pdf" style="font-weight: 600; color: #6caf1e;" target="_blank">História da educação indígena no Brasil</a>: alguns apontamentos. XIV Encontro Estadual de História - ANPUH RS, 18 a 21 jul. 2018.
-        </li>
-
-        <li>
-          MONLEVADE, João A. C. <a href="https://core.ac.uk/download/pdf/296827954.pdf" style="font-weight: 600; color: #6caf1e;" target="_blank">Valorização salarial dos professores</a>: o papel do piso salarial profissional nacional como instrumento de valorização dos professores da educação básica pública. Tese (doutorado) – Universidade Estadual de Campinas,  Faculdade de Educação. Campinas, SP : [s.n.], 2000. 
-        </li>
-        <li>
-          MORMUL, Najla Mehanna; MACHADO, Maria Cristina Gomes. <a href="https://www.serie-estudos.ucdb.br/serie-estudos/article/view/97" style="font-weight: 600; color: #6caf1e;" target="_blank">Rui Barbosa e a educação brasileira: métodos e programas</a>. Cadernos de História da Educação, v.12, n.1, jan.-jun..2013.
-        </li>
-        <li>
-          MEDEIROS, Juliana Schneider.  <a href="http://www.eeh2018.anpuh-rs.org.br/resources/anais/8/1534418335_ARQUIVO_TextoAnpuhRS-JulianaMedeiros_.pdf" style="font-weight: 600; color: #6caf1e;" target="_blank">História da educação indígena no Brasil</a>: alguns apontamentos. XIV Encontro Estadual de História - ANPUH RS, 18 a 21 jul. 2018.
-        </li>
-        <li>
-          OLIVEIRA, Romualdo Portela de; SANTANA, Wagner (Orgs.). <a href="https://crianca.mppr.mp.br/arquivos/File/publi/unesco/educacao_federalismo.pdf" style="font-weight: 600; color: #6caf1e;" target="_blank">Educação e federalismo no Brasil</a>: combater as desigualdades, garantir a diversidade. Brasília: UNESCO, 2010.
-        </li>
-        <li>
-          <a href="https://www.anped.org.br/news/constituicao-de-1988-e-o-direito-educacao-por-romualdo-portela-de-oliveira-feusp" style="font-weight: 600; color: #6caf1e;" target="_blank">A Constituição de 1988 e o Direito à Educação</a>. Anped, 2018.
-        </li>
-        <li>
-          SAVIANI, Demerval,<a href="http://periodicos.puc-campinas.edu.br/seer/index.php/reveducacao/ article/view/108/96" style="font-weight: 600; color: #6caf1e;" target="_blank"> “Política educacional brasileira: limites e perspectivas”</a>. Revista de Educação PUC-Campinas, 1(24), 7-16, 2008.
-        </li>
-        <li>
-          TEIXEIRA, Anísio. <a href="http://www.bvanisioteixeira.ufba.br/artigos/meiamas.html" style="font-weight: 600; color: #6caf1e;" target="_blank">Meia vitória, mas vitória</a>. <i>Diário de Pernambuco</i>. Recife, 13 abr. 1962. Disponível na Biblioteca Virtual Anísio Teixeira. 
-        </li>
-      </ul>
-      
-    </div>
-  </div>
-				
-				
-
-
-
-
-
-
-<div id="content" class="container mt-5" style="font-size: 1.2em;margin-top:-100px;">
-        <div class="row">
-            <div id="primary" class="col content-area">
-                <main id="main" class="site-main">
-  
-    <div>
-        <div>
-
-            <div id="texto" class="col-lg-12" style="padding: 0 6% 3% 6%">
-
-
-
-<div data-aos="fade-left" data-aos-duration="1000" style="width: 100%;display: flex;">
-
-	
-    <div style="margin: 0 auto;width:350px;">
-
-		
-<h1>Créditos</h1>
-<p><strong>Pesquisa e texto</strong>: Tamara Castro<br>
-<strong>Produção e web design</strong>: Marco Antonio Vieira<br>
-<strong>Entrevistados</strong>: <br>
-<ul>
-    <li>Guilherme Soares Dias</li>
-    <li>Ligia Fonseca Ferreira</li>
-</ul>
-</p>
-    </div>
-</div>
-
-
- </div>
- </div>
-</div>
-
-                 </main>
-            </div>
-        </div>
-    </div>
-
-
-
+}
