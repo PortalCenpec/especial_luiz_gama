@@ -1,19 +1,13 @@
-const box = document.querySelectorAll('.box');
-
-window.addEventListener('scroll', checkBoxes);
-
-checkBoxes();
-
-function checkBoxes() {
-  const triggerBottom = window.innerHeight / 5 * 4;
-  
-  box.forEach(box => {
-    const boxTop = box.getBoundingClientRect().top;
-    
-    if(boxTop < triggerBottom) {
-      box.classList.add('show');
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    console.log(entry)
+    if(entry.isIntersecting) {
+      entry.target.classList.add('show');
     } else {
-      box.classList.remove('show');
+      entry.target.classList.remove('show');
     }
-  })
-}
+  });
+});
+
+const hiddenSection = document.querySelectorAll('.hidden');
+hiddenSection.forEach((el) => observer.observe(el));
