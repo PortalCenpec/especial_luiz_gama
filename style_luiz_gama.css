@@ -27,43 +27,6 @@ li{
 }
 
 
-.ag-format-container {
-  width: 1142px;
-  margin: 0 auto;
-}
-
-.js-ag-hide {
-  display: none;
-}
-
-.ag-faq_list {
-  padding: 50px 0;
-}
-.ag-faq_item {
-  margin: 0 0 15px;
-}
-.js-ag-faq_title {
-  padding: 15px 30px;
-  background-color: #71b337;
-
-  cursor: pointer;
-
-  font-size: 20px;
-  color: #FFF;
-}
-.js-ag-faq_text {
-  line-height: 1.42;
-  padding: 30px 40px;
-  background-color: #eee;
-
-  font-size: 18px;
-  color: #5b5b5b;
-}
-
-
-
-
-
 @media only screen and (max-width: 700px) {
 
 .videos-lg{
@@ -72,7 +35,5 @@ li{
 }
 .img-lg{
 	width: 100%;
-}
-  .ag-format-container {
-    width: 750px;
+	}
 }
