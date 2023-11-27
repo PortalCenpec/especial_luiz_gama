@@ -26,11 +26,9 @@ li{
 	padding: 12px;
 }
 
-@media (max-width: 1350px) {
 
-}
 
-@media (max-width: 780px) {
+@media only screen and (max-width: 700px) {
 
 .videos-lg{
 	width:100%;
