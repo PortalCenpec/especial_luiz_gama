@@ -284,7 +284,8 @@
 	border: solid 8px #df900f;
 	border-radius: 18px;
 	margin: 0 auto;
-	width:480;
+	width:100%;
+	max-width:480;
 	height:270;
 }
 
@@ -374,5 +375,9 @@
   .container-credits-bicentenario {
     max-width: 90%;
   }
-
+.videos_lg{
+	width:100%;
+	max-width:380;
+	height: 214;
+}
 }
