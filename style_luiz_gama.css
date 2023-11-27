@@ -280,13 +280,20 @@
   filter: invert(80%);
 }
 
-.videos_lg{
+.videos-lg{
 	border: solid 8px #df900f;
 	border-radius: 18px;
 	margin: 0 auto;
 	width:100%;
 	max-width:480;
 	height:270;
+}
+
+.img-lg{
+	float: left;
+	width: 380px;
+	display:inline-block;
+	padding: 12px;
 }
 
 @media (max-width: 1350px) {
@@ -375,9 +382,12 @@
   .container-credits-bicentenario {
     max-width: 90%;
   }
-.videos_lg{
+.videos-lg{
 	width:100%;
 	max-width:380;
 	height: 214;
+}
+.img-lg{
+	width: 100%;
 }
 }
