@@ -54,7 +54,7 @@ li{
 
 .grad {
 	background: rgb(187,116,0);
-	background: linear-gradient(338deg, rgba(187,116,0,1) 0%, rgba(223,144,15,1) 42%, rgba(255,210,137,1) 100%);
+	background: linear-gradient(338deg, rgba(223,144,15,1) 42%, rgba(255,210,137,1) 100%);
 	text-align:center;
 	width: 100%;
 	max-width: 580px;
