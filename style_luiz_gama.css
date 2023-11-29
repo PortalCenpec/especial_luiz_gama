@@ -91,8 +91,7 @@ li{
 	height:315;
 	}
 .animate__fadeInDown {
-  top:0;
-  left: 35%;
+  display:none;
 }
 .seta{
 	display:none;
