@@ -25,6 +25,12 @@ li{
 	padding: 12px;
 }
 
+audio {
+	width:80%;
+	margin: 0 auto;
+	background-color: #df900f;
+}
+
 
 @media only screen and (max-width: 700px) {
 
