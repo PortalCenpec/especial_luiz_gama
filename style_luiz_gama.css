@@ -30,6 +30,13 @@ li{
 	font-weight: 400;
 	
 }
+#myDIV {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background-color: #df900f;
+  margin: 0 auto;
+}
 
 
 @media only screen and (max-width: 700px) {
