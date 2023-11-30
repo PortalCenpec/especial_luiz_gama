@@ -80,6 +80,19 @@ li{
 	width: 100px;
 }
 
+.img-midia{
+	width:94%;
+	max-width:560px;
+	border: solid 8px #df900f;
+	border-radius: 18px;
+	margin: 0 auto;
+	height:450;
+}
+
+.margens{
+	padding: 0 12px;
+	}
+
 @media only screen and (max-width: 700px) {
 
 .videos-lg{
