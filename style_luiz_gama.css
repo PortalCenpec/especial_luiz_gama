@@ -93,6 +93,11 @@ li{
 	padding: 0 12px;
 	}
 
+.img-col{
+	float: left;
+	width:250px;
+}
+
 @media only screen and (max-width: 700px) {
 
 .videos-lg{
@@ -108,5 +113,9 @@ li{
 }
 .seta{
 	display:none;
+}
+.img-col{
+	float: left;
+	width:100%;
 }
 }
